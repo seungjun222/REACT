@@ -1,0 +1,53 @@
+/* TITLE SECTION */
+.title {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 950px;
+  
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  }
+  .title__inner {
+    overflow: hidden;
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 350px;
+  }
+  .title__inner img {
+    width: 1050px;
+    margin: -100px auto -30px;
+    animation: 2s fadeinTitle linear;
+  }
+  .title__inner h3 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #ececec;
+    animation: 3.5s fadeinTitle linear;
+  }
+  .title #bg-video {
+    overflow: hidden; /* 원래 x */
+    position: absolute;
+    top: -120px; /* 원래 top: 0 */
+    z-index: -1;
+    width: 1100px;
+    min-width: 100%;
+  }
+  
+  /* FADEIN BOTTOM */
+  @keyframes fadeinTitle {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .haha{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }

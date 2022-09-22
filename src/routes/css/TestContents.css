@@ -1,0 +1,47 @@
+main{
+    width: 100%;
+    max-width: 488px;
+    margin: 35px auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+img{
+    width: inherit;
+}
+
+h1{
+    font-size: 1.6em;
+    margin: 30px 0;
+}
+
+h2{
+    font-size: 1.6em;
+    color: #FAC92E;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+main h2{
+    margin: 30px;
+}
+
+h3{
+    font-size: 1em;
+    color: #8a8e90;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.score{
+    font-size: 4em;
+    color: #f92b46;
+    margin-bottom: 20px;
+}
+
+.intro{
+    margin-bottom: 30px;
+}
+
+
+

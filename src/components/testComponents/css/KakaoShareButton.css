@@ -1,0 +1,12 @@
+.sharing__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sharing__div{
+    width: 68px;
+    margin: 15px 10px;
+}
+.sharing__div:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+/* COMPOSER MATCHING SECTION */
+.composerMatching {
+    padding: 150px 0 150px;
+    margin-left: 250px; /* 원래 없었음*/
+  }
+  .composerMatching__inner {
+    display: flex;
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  }
+  
+  /* COMPOSER MATCHING CONTENTS */
+  .composerMatching__contents {
+    width: 650px; /*원래 550*/
+    padding: 50px 0 100px;
+  }
+  .composerMatching__contents .contents__title {
+    margin-bottom: 40px;
+  }
+  .composerMatching__contents .contents__title img:nth-child(1) {
+    width: 550px;
+    margin-bottom: 20px;
+  }
+  .composerMatching__contents .contents__title img:nth-child(2) {
+    width: auto;
+    height: auto;
+  }
+  .composerMatching__contents .contents__dsc {
+    margin-bottom: 40px;
+  }
+  .composerMatching__contents .contents__dsc p {
+    color: #b0b8c1;
+    font-size: 22px;
+    line-height: 1.6;
+  }
+  .composerMatching__contents .contents__btn {
+    margin-top: 50px;
+  }
+  .composerMatching__contents .contents__btn a {
+    padding: 10px 50px;
+    border: 2px solid #fac92e;
+    border-radius: 6px;
+    background-color: #101010;
+    font-size: 22px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #fac92e;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .composerMatching__contents .contents__btn a:hover {
+    background-color: #fac92e;
+    color: #fff;
+  }
+  
+  /* COMPOSER MATCHING IMAGE */
+  .composerMatching__img {
+    width: 350px;
+  
+  }
+  .composerMatching__img img {
+    width: 350px;
+  
+  }

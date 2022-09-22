@@ -1,0 +1,108 @@
+/* OTHERS SECTION */
+.others {
+    overflow: hidden;
+    background-image: url('../../../../public/images/carnegie_hall.jpg');
+    background-repeat: round;
+  }
+  .others__inner {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 100px;
+  }
+  
+  /* OTHERS DSC */
+  .others__title {
+    margin-bottom: 120px;
+    text-align: center;
+  }
+  .others__title h2 {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    color: #FAC92E;
+  }
+  
+  /* OTHERS IMG */
+  .others__img {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  .others__img img {
+    display: inline-block;
+    width: 450px;
+    margin: 0 50px;
+    filter: grayscale(100%);
+    transition: transform 0.2s, filter 0.6s;
+  }
+  .others__img img:hover {
+    z-index: 1;
+    filter: none;
+  }
+  .others__img .img__line1 {
+    margin: 0 auto 100px;
+  }
+  .others__img .img__line2 {
+    margin: 0 auto;
+  }
+
+  .others__img .img__line1 .img1.scroll {
+    animation: 1.2s moveYamaha ease;
+  }
+  .others__img .img__line1 .img1:hover {
+    transform: scale(1.1);
+  }
+
+  .others__img .img__line1 .img2.scroll {
+    animation: 1.2s moveSteinway ease;
+  }
+  .others__img .img__line1 .img2:hover {
+    transform: scale(1.1);
+  }
+
+  .others__img .img__line2 .img3.scroll {
+    animation: 1.2s moveBoesendorfer ease;
+  }
+  .others__img .img__line2 .img3:hover {
+    transform: scale(1.1);
+  }
+  .others__img .img__line2 .img4.scroll {
+    animation: 1.2s moveOthers ease;
+  }
+  .others__img .img__line2 .img4:hover {
+    transform: scale(1.1);
+  }
+  /* OTHERS IMG ANIMATION */
+  @keyframes moveYamaha {
+    from {
+      transform: translate(-200%, -100%);
+    }
+    to {
+      transform: translate(0%, 0%);
+    }
+  }
+  @keyframes moveSteinway {
+    from {
+      transform: translate(300%, -200%);
+    }
+    to {
+      transform: translate(0%, 0%);
+    }
+  }
+  @keyframes moveBoesendorfer {
+    from {
+      transform: translate(-200%, 200%);
+    }
+    to {
+      transform: translate(0%, 0%);
+    }
+  }
+  @keyframes moveOthers {
+    from {
+      transform: translate(400%, 200%);
+    }
+    to {
+      transform: translate(0%, 0%);
+    }
+  }
+  

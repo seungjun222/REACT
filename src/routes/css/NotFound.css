@@ -1,0 +1,58 @@
+/* NOT FOUND SECTION */
+.notfound {
+
+  height: 1000px;
+  background-color: rgb(245, 245, 245);
+}
+.notfound .notfound__inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 900px;
+  margin: auto;
+}
+
+/* NOT FOUND IMAGE */
+.notfound__img {
+  display: flex;
+  margin: 100px 0 20px;
+  flex-direction: column;
+  justify-content: center;
+  margin: 150px 0 20px;
+}
+/* .notfound .notfound__inner .notfound__img img:nth-child(1) {
+  width: 50px;
+  margin: auto;
+} */
+.notfound .notfound__inner .notfound__img img:nth-child(1) {
+  width: 400px;
+  margin: auto;
+}
+
+/* NOT FOUND DSC */
+.notfound .notfound__inner .notfound__dsc {
+  font-size: 48px;
+  text-align: center;
+  color: rgb(78, 72, 72);
+  
+}
+.notfound .notfound__inner .notfound__dsc span {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.notfound .notfound__inner .notfound__dsc a {
+  display: inline-block;
+  padding: 15px 40px;
+  background: #333;
+  border-radius: 20px;
+  box-shadow: 0px 5px 5px #d2d2d2;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+#not{
+  font-size: 1.1em;
+}
